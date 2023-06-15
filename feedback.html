@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>FEEDBACK</title>
+        <style>
+            body{
+                background-color:pink; font-size: 18px;font-family: Times New Roman;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <form action="form.php" method="post">
+            <FONT FACE="Times New Roman" SIZE="100%" COLOR="white">
+            <center><p>FEEDBACK</p></FONT>
+            </center>
+           
+            
+            Name:<input type="text" name="name" required> <br> <br>
+            Age:<input type="text" name="age" required> <br> <br>
+            Gender:
+                <input type="radio" name="gender" value="Male" required>Male
+                <input type="radio" name="gender" value="Female" required>Female <br> <br>
+                
+            Email: <input type="text" name="email" required>  <br> <br>
+            Mobile No:<input type="text" name="mob" required></span><br> <br>
+            <input type="submit" name="submit" value="submit" >
+            <input type="reset" value="clear">
+            <script>
+            
+                $("p").click(function(){
+                    $(this).slideToggle();
+                });
+           
+            </script>
+        </form>
+      
+    </body>
+</html>
